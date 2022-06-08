@@ -1,0 +1,28 @@
+Análisis Léxico: Clasificar subconjuntos de cadenas de acuerdo a un rol y proporcionar esta clasificacion al parser (análisis sintáctico).
+    Tiene como funciones: Reconocer las cadenas que correspondana los tokens e Identificar la categoría de cada lexema.
+    
+Token: Es un grupo de caracteres que tiene un significado especial para el lenguaje de programacion.
+
+Tokens: Agrupacion de caracteres que pueden vivir en el alfabeto.
+
+Alfabeto: Grupo de caracteres que pueden usarse en un lenguaje.
+
+
+Expresión Regular:  Las expresiones regulares son patrones utilizados para encontrar una determinada combinación de caracteres dentro de una cadena de texto. Las expresiones regulares proporcionan una manera muy flexible de buscar o reconocer cadenas de texto.  
+   
+
+____AUTOMATAS_______
+
+
+Automata Finito Determinista (AFD) : Es un automata que su funcion de transiciones, para cada estado, solamente existe un solo camino para transportarse a otro
+
+su estructura es:
+Q = cantidad de estados
+Σ = Alfabeto
+d(delta) = funcion de transicion
+Qo = Estado inicial
+f = Estado(s) de Aceptación
+entonces ***** A = (Q,Σ,D,QO,f) *******
+
+
+
